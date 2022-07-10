@@ -1,0 +1,15 @@
+# VocalTest
+
+Environment :
+
+- typescript
+- React native v0.69.1
+- Hermes enabled
+- fabric enabled (enhanced re-rendering)
+- libs used (react,react-native,react-native-maps)
+
+Running environment :
+
+- Apple mac m1
+- Android 11
+- iOS 15.5
