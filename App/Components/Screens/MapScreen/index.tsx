@@ -8,7 +8,13 @@ import MapControls from './Components/MapControls';
 import PlaceView from './Components/PlaceView';
 import styles from './styles';
 
-const MapScreen = ({theme, onToggleTheme, isDarkMode}) => {
+type Props = {
+  theme: any;
+  onToggleTheme(): void;
+  isDarkMode: boolean;
+};
+const MapScreen = (props: Props) => {
+  const {theme, onToggleTheme, isDarkMode} = props;
   const [place, setPlace] = useState<Place | undefined>();
 
   const onPlacePressed = (p: Place) => {

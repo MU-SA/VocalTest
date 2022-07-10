@@ -10,7 +10,7 @@
 
 import React, {useMemo, useState} from 'react';
 import MapScreen from './App/Components/Screens/MapScreen';
-import BottomNav from './App/Components/UI/PlacesMap/BottomNav';
+import BottomNav from './App/Components/UI/BottomNav';
 import {DarkTheme, LightTheme} from './App/Theme';
 const App = () => {
   const [isDarkMode, setisDarkMode] = useState(false);
